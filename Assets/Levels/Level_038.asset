@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cec3b5a14b28acd419ba3420316df6da, type: 3}
+  m_Name: Level_038
+  m_EditorClassIdentifier: Assembly-CSharp::TiltMirror.LevelData
+  levelNumber: 38
+  width: 4
+  height: 8
+  par: 8
+  sunStart: {x: 0, y: 7}
+  moonStart: {x: 3, y: 7}
+  sunGoal: {x: 0, y: 3}
+  moonGoal: {x: 1, y: 0}
+  sunWalls:
+  - {x: 0, y: 0}
+  - {x: 3, y: 0}
+  - {x: 0, y: 2}
+  - {x: 1, y: 3}
+  moonWalls:
+  - {x: 3, y: 2}
+  - {x: 2, y: 5}
+  - {x: 0, y: 6}
+  - {x: 3, y: 6}
+  hasKey: 1
+  keyOnSun: 1
+  keyPos: {x: 1, y: 7}
+  sunLocks: []
+  moonLocks:
+  - {x: 2, y: 6}
+  - {x: 1, y: 7}
+  showHint: 0
